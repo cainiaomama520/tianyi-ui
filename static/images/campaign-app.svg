@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard-2-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-249.000000, -140.000000)">
+        <g id="Group-Copy" transform="translate(249.000000, 140.000000)">
+            <g transform="translate(10.000000, 3.000000)">
+                <rect id="Rectangle-19" stroke="#436EB4" stroke-width="2" x="1" y="1" width="28" height="42" rx="2"></rect>
+                <rect id="Rectangle-4" stroke="#B1C5F2" x="4.5" y="4.5" width="21" height="29" rx="2"></rect>
+                <circle id="Oval-4" stroke="#436EB4" fill="#B1C5F2" cx="15" cy="38" r="2"></circle>
+                <rect id="Rectangle-20" fill="#B1C5F2" x="7" y="7" width="4" height="4" rx="1"></rect>
+                <rect id="Rectangle-20-Copy" fill="#436EB4" x="13" y="7" width="4" height="4" rx="1"></rect>
+                <rect id="Rectangle-20-Copy-2" fill="#B1C5F2" x="19" y="7" width="4" height="4" rx="1"></rect>
+                <rect id="Rectangle-20" fill="#436EB4" x="7" y="13" width="4" height="4" rx="1"></rect>
+                <rect id="Rectangle-20-Copy" fill="#B1C5F2" x="13" y="13" width="4" height="4" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+.myRangePanel.has-sidebar{
+	width: 530px;
+}
+.myRangePanel .el-picker-panel__sidebar{
+		position: static;
+		width: auto;
+	}
+	.myRangePanel .el-picker-panel__sidebar .el-picker-panel__shortcut{
+		display: inline-block;
+		width: auto;
+	}
+	.myRangePanel .el-picker-panel__body{
+		margin-left: 0px;
+	}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>天翼M系统</title>
+</head>
+
+<body>
+	<!-- <div style="display:none" id="flyauto-chrome-extension-installed">手动初始化插件</div> -->
+	<div id="app">
+
+	</div>
+	<!-- built files will be auto injected -->
+</body>
+<script>
+		var installNode = null;
+		setTimeout(() => {
+			console.log('timer runing....', new Date().getTime());
+			// page.js，指的是用户网页里面的js
+			installNode = document.getElementById('flyauto-chrome-extension-installed');
+			if (installNode) {
+				console.log('Chrome extension is installed! Here is the infomation: ' + installNode.innerText);
+			} else {
+				console.log('Chrome extention is not installed yet...');
+				return false;
+			}
+			// 监听installNode的EventFromChrome事件
+			installNode.addEventListener('EventFromChrome', function () {
+				var data = JSON.parse(installNode.innerText);
+				console.log(data.msg);
+			});
+	
+			console.log('timer end....', new Date().getTime());
+	
+		}, 2 * 1000)
+	</script>
+</html>
